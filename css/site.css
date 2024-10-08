@@ -1,0 +1,25 @@
+body {
+   background-color: white;
+   color: black;
+}
+
+hr {
+   border: 1px solid black;
+   border-radius: 4px;
+}
+fieldset{
+   margin-bottom: 0px; 
+   margin-top: 15px;
+   font-weight: bold;
+}
+.icon {
+   width: 170px;
+   float: left;
+   margin-right: 20px;
+}
+.endpoints {
+   display:grid;
+   grid-template-columns: 80px 200px auto;
+   row-gap: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
